@@ -14,13 +14,10 @@
     <input type="submit">
   </form>
 
-  <script>
-    fetch('/api/json')
-      .then(response => response.json())
-      .then(json => {
-        document.querySelector('#out').innerText = JSON.stringify(json);
-      })
-  </script>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+  <script src="./app.js"></script>
 </body>
 
 </html>
