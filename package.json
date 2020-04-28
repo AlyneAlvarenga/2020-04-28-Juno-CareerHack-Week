@@ -1,0 +1,22 @@
+{
+  "name": "2020-04-28-juno-careerhack-week",
+  "version": "1.0.0",
+  "description": "## Today's Objective: Markdown Editor",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlyneAlvarenga/2020-04-28-Juno-CareerHack-Week.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlyneAlvarenga/2020-04-28-Juno-CareerHack-Week/issues"
+  },
+  "homepage": "https://github.com/AlyneAlvarenga/2020-04-28-Juno-CareerHack-Week#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
