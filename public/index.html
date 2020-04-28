@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="out">I am here</div>
+
+  <form action="/api/json" method="POST">
+    <input type="submit">
+  </form>
+
+  <script>
+    fetch('/api/json')
+      .then(response => response.json())
+      .then(json => {
+        document.querySelector('#out').innerText = JSON.stringify(json);
+      })
+  </script>
+</body>
+
+</html>
